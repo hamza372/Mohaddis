@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    "@style/AppTheme.NoActionBar"
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/font_family_2</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/font_family_2</item>
+    </style>
+
+    <style name="creditCardText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">@font/font_family_2</item>
+        <item name="android:textColor">@color/md_blue_grey_900</item>
+    </style>
+
+    <style name="TextAppearance">
+        <item name="android:fontFamily">@font/font_family_2</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:fontFamily">@font/font_family_2</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:fontFamily">@font/font_family_2</item>
+
+    </style>
+
+    <style name="ND" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/urdu_font_family</item>
+    </style>
+
+    <style name="StyleUrduFont">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/urdu_font</item>
+
+    </style>
+
+    <style name="StyleArabicFont">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/arabic_font_family</item>
+
+    </style>
+</resources>

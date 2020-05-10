@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCE4F1"
+    tools:context=".Updates">
+
+    <View
+        android:id="@+id/view16"
+        android:layout_width="wrap_content"
+        android:layout_height="1.7dp"
+        android:background=" #0e9039"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar9"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:background="@drawable/rectangle_798"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="13.3sp"
+                android:text="خصوصیات"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                app:fontFamily="@font/urdu_font_family"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/group_36" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:onClick="backButton"
+                android:padding="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/group_38" />
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="السلام علیکم ورحمۃ اللہ وبرکاتہ!"
+                android:textColor="@color/accent"
+                app:fontFamily="@font/urdu_font_family"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="172dp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/properties"
+                app:fontFamily="@font/urdu_font_family"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="172dp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="محدث (Mohaddis.com)"
+                android:textColor="@color/accent"
+                android:textSize="18sp"
+                app:fontFamily="@font/urdu_font_family"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="172dp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="یہ سائٹ اردو زبان میں خدمت حدیث شریف کے سلسلے میں ایک عظیم الشان قدم ہے۔یہ ویب سائٹ اہل علم کے ہاں معروف حدیث کے عربی سوفٹ وئیر مکتبۃ الحدیث المعروف بہ کتب تسعہ کی طرز پر آن لائن سہولت کے ساتھ تیار کی گئی ہے۔اس سائٹ پر احادیث مبارکہ اپنی تمام تر تفصیلات کے ساتھ موجود ہیں، تاکہ عوام الناس بھی حدیث کے حکم سے بخوبی واقف ہو سکیں۔اس سائٹ پر اب تک حدیث کی چھ معروف کتابیں (صحیح بخاری، صحیح مسلم، جامع ترمذی، سنن ابو داؤد، سنن ابن ماجہ اورسنن النسائی) صحاح ستہ اپلوڈ کی جاچکی ہیں،جامع ترمذی کے علاوہ باقی پانچ کتب کے دو دو اُردو تراجم اپلوڈ ہیں، جامع ترمذی کا فی الوقت ایک ہی اردو ترجمہ ہے۔ اس ویب سائٹ کو 2014ء میں بیس رمضان المبارک کو آن لائن کیا گیا ۔اس سائٹ پر موجود کسی بھی حدیث کو سوشل میڈیا پر شیئر کرنے کی سہولت بھی دی گئی ہے۔"
+                app:fontFamily="@font/urdu_font_family"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="172dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="خصوصیات"
+                android:textColor="@color/accent"
+                android:textSize="18sp"
+                app:fontFamily="@font/urdu_font_family"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="172dp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="یہ ویب سائٹ متعدد شاندار خصوصیات کی حامل ہے جن میں قاری کو زیادہ سے زیادہ سہولیات فراہم کرنے کی کوشش کی گئی ہے۔ ان میں سے چند معروف خصوصیات درج ذیل ہیں"
+                app:fontFamily="@font/urdu_font_family"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="172dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/make_cornor_round"
+                android:elevation="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:text="احادیث مبارکہ کو چار طریقوں سے تلاش کی سہولت: 1. عربی متن ، اردو ترجمہ 2. کتاب، باب 3. حدیث نمبر 4. موضوعات حدیث"
+                    android:textSize="12sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/backbutton"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/make_cornor_round"
+                android:elevation="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView361"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:text="ہر کتابِ حدیث کی متعدد متداول تراقیم"
+                    android:textSize="12sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/backbutton"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/make_cornor_round"
+                android:elevation="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView362"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:text="ہر حدیث کے متعدد اُردو تراجم"
+                    android:textSize="12sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/backbutton"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/make_cornor_round"
+                android:elevation="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView363"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:text="ہر حدیث کی صحت وضعف پر متعدّد اہل علم کا حکم"
+                    android:textSize="12sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/backbutton"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/make_cornor_round"
+                android:elevation="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView364"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:text="تمام صحاح ستہ یا ایک یا دو منتخب کتب میں علیحدہ سے تلاش کی سہولت"
+                    android:textSize="12sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/backbutton"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/make_cornor_round"
+                android:elevation="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView365"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:text="ہر حدیث کے متعلق دستیاب سہولیات: (1. حکم اجمالی وتفصیلی ، 2. موضوعات، 3. شرح 4. تخریج)"
+                    android:textSize="12sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/backbutton"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/make_cornor_round"
+                android:elevation="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView366"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:text="ہر حدیث میں نسبت حدیث (قدسی، مرفوع، موقوف، مقطوع)، اتصال سند (متصل ، منقطع) ، اور قسم (قولی، فعلی، تقریری) کی وضاحت"
+                    android:textSize="12sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/backbutton"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/make_cornor_round"
+                android:elevation="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView367"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:text="ڈیفالٹ سیٹنگ:صارفین کیلئے اپنی خاص سیٹنگ (مثلاً مخصوص ترقیم، ترجمہ یا حکم وغیرہ) متعیّن کرنے کی سہولت"
+                    android:textSize="12sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/backbutton"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

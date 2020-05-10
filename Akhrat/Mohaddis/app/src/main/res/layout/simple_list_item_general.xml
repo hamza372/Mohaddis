@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tvtv"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:drawablePadding="17dp"
+    android:gravity="center_vertical"
+    android:letterSpacing="0.01"
+    android:lineSpacingExtra="18.3sp"
+    android:textColor="#17202f"
+    android:textSize="14sp"
+    app:fontFamily="@font/urdu_font_family"></TextView>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCE4F1"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar8"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/rectangle_798"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="18dp">
+
+            <TextView
+                android:id="@+id/toolbartitlek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="13.3sp"
+                android:text="التخريج"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                app:fontFamily="@font/urdu_font_family"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:padding="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/group_38" />
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="match_parent"
+        android:layout_height="1.7dp"
+        android:background=" #0e9039"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:accessibilityHeading="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="8.5dp"
+                android:background="@drawable/shadow_background"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableRight="@drawable/forma_1colorless"
+                    android:drawablePadding="7dp"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="18.5sp"
+                    android:textColor="#0e9039"
+                    android:textSize="14.8sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:text="‌صحيح البخاري" />
+
+                <ListView
+                    android:id="@+id/listb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="8.5dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="8.5dp"
+                android:background="@drawable/shadow_background"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableRight="@drawable/forma_1colorless"
+                    android:drawablePadding="7dp"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="18.5sp"
+                    android:textColor="#0e9039"
+                    android:textSize="14.8sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:text="‌صحيح البخاري" />
+
+                <ListView
+                    android:id="@+id/listb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="8.5dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="8.5dp"
+                android:background="@drawable/shadow_background"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/forma_1colorless"
+                    android:drawablePadding="7dp"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="18.5sp"
+                    android:textColor="#0e9039"
+                    android:textSize="14.8sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:text="‌صحيح البخاري" />
+
+                <ListView
+                    android:id="@+id/listb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="8.5dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="8.5dp"
+                android:background="@drawable/shadow_background"
+                android:drawableRight="@drawable/forma_1"
+                android:drawablePadding="7dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvb4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/forma_1colorless"
+                    android:drawablePadding="7dp"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="18.5sp"
+                    android:textColor="#0e9039"
+                    android:textSize="14.8sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:text="‌صحيح البخاري" />
+
+                <ListView
+                    android:id="@+id/listb4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="8.5dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="8.5dp"
+                android:background="@drawable/shadow_background"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvb5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/forma_1colorless"
+                    android:drawablePadding="7dp"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="18.5sp"
+                    android:textColor="#0e9039"
+                    android:textSize="14.8sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:text="‌صحيح البخاري" />
+
+                <ListView
+                    android:id="@+id/listb5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="8.5dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="17dp"
+                android:background="@drawable/shadow_background"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvb6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/forma_1colorless"
+                    android:drawablePadding="7dp"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="18.5sp"
+                    android:textColor="#0e9039"
+                    android:textSize="14.8sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:text="‌صحيح البخاري" />
+
+                <ListView
+                    android:id="@+id/listb6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="8.5dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="8.5dp"
+                android:background="@drawable/shadow_background"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvb7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawablePadding="7dp"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="18.5sp"
+                    android:textColor="#0e9039"
+                    android:textSize="14.8sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:text="‌صحيح البخاري" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

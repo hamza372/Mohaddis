@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="rect">180</integer>
+    <integer name="rect2">1050</integer>
+    <integer name="rectf">0</integer>
+    <integer name="rect4">900</integer>
+    <integer name="rect5">90</integer>
+</resources>

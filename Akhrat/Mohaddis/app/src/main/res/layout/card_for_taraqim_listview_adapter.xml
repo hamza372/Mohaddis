@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:drawablePadding="14.7dp"
+        android:fontFamily="@font/urdu_font_family"
+        android:gravity="center_vertical"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="20sp"
+        android:text="TextView"
+        android:textColor="#17202f"
+        android:textSize="13.3dp"
+        app:fontFamily="@font/urdu_font_family"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:text=" کتاب: پاکی کا بیان" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:drawablePadding="14.7dp"
+        android:fontFamily="@font/urdu_font_family"
+        android:gravity="center_vertical"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="20sp"
+        android:text="TextView"
+        android:textColor="#17202f"
+        android:textSize="13.3dp"
+        app:fontFamily="@font/arabic_font"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView28"
+        tools:text=" کتاب: پاکی کا بیان" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/properties"
+            android:fontFamily="@font/urdu_font_family"
+
+            android:icon="@drawable/l_0001nav"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="33.3sp"
+            android:textColor="#17202f"
+            android:textSize="16.5sp"
+            android:title="خصوصیات" />
+        <item
+            android:id="@+id/about"
+            android:fontFamily="@font/urdu_font_family"
+            android:icon="@drawable/group_48"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="33.3sp"
+            android:textColor="#17202f"
+            android:textSize="16.5sp"
+            android:title="کچھ ہمارے بارے میں" />
+
+        <item
+            android:id="@+id/coopertion"
+            android:fontFamily="@font/urdu_font_family"
+            android:icon="@drawable/forma_1nav"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="33.3sp"
+            android:textColor="#17202f"
+            android:textSize="16.5sp"
+            android:title="تعاون" />
+        <item
+            android:id="@+id/contact"
+            android:fontFamily="@font/urdu_font_family"
+            android:icon="@drawable/l_1"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="33.3sp"
+            android:textColor="#17202f"
+            android:textSize="16.5sp"
+            android:title="رابطہ" />
+    </group>
+
+</menu>

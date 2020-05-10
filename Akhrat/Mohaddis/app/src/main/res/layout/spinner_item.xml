@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right|center_vertical"
+    android:fontFamily="@font/urdu_font_family"
+    android:gravity="center_vertical"
+    android:letterSpacing="0.01"
+    android:lineSpacingExtra="20sp"
+    android:text=" موقع محدّث"
+    android:textColor="#25a04b"
+    android:textSize="13.3sp"
+    app:fontFamily="@font/arabic_font"
+    tools:layout_editor_absoluteX="356dp"
+    tools:layout_editor_absoluteY="353dp" />
+

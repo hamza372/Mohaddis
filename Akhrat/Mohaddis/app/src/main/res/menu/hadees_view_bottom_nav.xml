@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuit"
+        android:icon="@drawable/menu"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/takhreejitem"
+        android:icon="@drawable/takhreej"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/hasiait"
+        android:icon="@drawable/hukam"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/hukamit"
+        android:icon="@drawable/ic_brightness_1_black_24dp"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tarajumit"
+        android:icon="@drawable/ic_book_black_24dp"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/taraqimit"
+        android:icon="@drawable/taraqim_list_numbered_black_24dp"
+        android:title="Item"
+        app:showAsAction="always" />
+</menu>

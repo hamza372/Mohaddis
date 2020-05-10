@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCE4F1"
+    tools:context=".Updates">
+
+    <View
+        android:id="@+id/view18"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background=" #0e9039"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar9"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/rectangle_798"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="13.3sp"
+                android:text="تعاون"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                app:fontFamily="@font/urdu_font_family"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/group_36" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:onClick="backButton"
+                android:padding="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/group_38" />
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="ان عظیم الشان ویب سائٹس کے پروگرامز کو جاری رکھنے میںمجلس التحقیق الاسلامی کے ساتھ مالی تعاون فرمائیں"
+                android:textColor="@color/md_black_1000"
+                android:textSize="18sp"
+                app:fontFamily="@font/urdu_font_family"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="172dp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="جیسا کہ آپ احباب کے علم میں ہے کہ مجلس التحقیق الاسلامی کے زیر اہتمام قائم عظیم الشان دعوتی واصلاحی ویب سائٹس کو جاری رکھنے کے لئے ایک بڑی ٹیم ہمہ وقت خدمات سرانجام دے رہی ہے۔ جن کے وظائف کے سلسلے میں ایک بڑی رقم (دو لاکھ سے زائد) ماہانہ خرچ ہو تی ہے۔ اور یہ سب اخراجات اللہ کے فضل وکرم کے بعد آپ جیسے مخلص اور مخیر حضرات کے تعاون سے پورے ہوتے ہیں۔تبلیغ دین کے یہ کام در حقیقت اللہ کے ہیں اور انہیں اللہ تعالیٰ ہی مکمل فرماتے ہیں۔ یہ تو ان لوگوں کی خوش قسمتی ہے جنہیں اللہ تعالیٰ اس سلسلے میں توفیق دیتے ہیں اور وہ ان کاموں کی تکمیل کا باعث بنتے ہیں۔ چونکہ یہ کام بہت عظیم ہے اور اس کا اجر بھی اللہ کے ہاں بہت زیادہ ہے لہٰذا اس کیلئے درمیان میں مالی ودیگر مشکلات آتی رہتی ہیں جس وجہ سے پریشانی ہوتی ہے۔  سوشل میڈیا کے اس پر فتن دور میں ان سائٹس کی دعوتی واصلاحی افادیت اور معاشرے میں ا ن کے مثبت اور تعمیری کردار سےتو ہر ذی شعور انسان بخوبی آگاہ ہے۔لیکن افسوس کی بات یہ ہے کہ جہاں مخلص احباب ان سائٹس سے خوب خوب فائدہ اٹھاتے ہیں وہیں کچھ مخالفین ان میں خرابی پیدا کرنے کی کوشش میں مصروف رہتے ہیں۔ہماری یہ ویب سائٹس اب الحمد للہ معاشرہ میں نہ صرف کافی مقبول ہوچکی ہیں ، بلکہ ان پر بہت زیادہ علمی واصلاحی ڈیٹا اور مواد بھی اپلوڈ کیا جا چکا ہے۔جنہیں باقاعدہ پروفیشنل اور اچھے انداز میں مسلسل چلانے کے آپ کے مالی تعاون کی اشد ضرورت ہے۔"
+                app:fontFamily="@font/urdu_font_family"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="172dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:background="@drawable/make_cornor_round"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/view19"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.7dp"
+                    android:background=" #0e9039"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView14"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="حدیث نبوی ﷺہے:"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="مَنْ جَهَّزَ غَازِيًا فِي سَبِيلِ اللَّهِ فَقَدْ غَزَا، وَمَنْ خَلَفَ غَازِيًا فِي سَبِيلِ اللَّهِ بِخَيْرٍ فَقَدْ غَزَا (بخاری:2863) سدفکلجدف  جس شخص نے اللہ کی راہ میں جہاد کرنے والے کو سازوسامان دیا (گویا) اس نے خود جہاد کیا۔ اور جس شخص نے غازی کے گھر بار کی نگرانی کی گویااس نے خود جہاد کیا۔"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="اس حدیث مبارکہ کے مطابق جو شخص مالی کفالت کرے گا اس کے لئے بھی اتنا ہی اجر جتنا کہ میدان عمل میں شریک شخص کے لئے ہے۔  تو آئیے! مجلس کے ساتھ ماہانہ یا سالانہ بنیادوں پر تعاون کا ایک سلسلہ شروع کریں تاکہ دین حق کے عالمگیر پیغام امن کو دنیا کے کونے کونے تک پہنچایا جا سکے۔ اللہ ہم سب حامی وناصر ہو اور ہمیں اپنے دین حنیف کی خدمت کی خدمت کی توفیق عطا فرمائے۔آمین"
+                app:fontFamily="@font/urdu_font_family"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="172dp" />
+
+            <View
+                android:id="@+id/view20"
+                android:layout_width="match_parent"
+                android:layout_height="1.7dp"
+                android:background=" #0e9039"
+                app:layout_constraintBottom_toTopOf="@+id/imageView14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مجلس کے ساتھ تعاون کے لئے  رابطہ نمبربمعہ بینک اکاؤنٹ:"
+                android:textColor="@color/accent"
+                android:textSize="24sp"
+                app:fontFamily="@font/urdu_font_family"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="172dp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ڈاکٹر حافظ انس نضر، مدیر مجلس التحقیق الاسلامی، لاہور"
+                android:textColor="@color/md_black_1000"
+                android:textSize="18sp"
+                app:fontFamily="@font/urdu_font_family"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="172dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:background="@drawable/make_cornor_round"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view19"
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background=" #0e9039"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView14"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="03227222288 \nA/c Title: Kitabosunnat.com \nA/c no: 0093-01875659 \nBank Alfalah Limited \nBranch Urdu Bazar, Lahore \n(Swift Code: ALFPKKA093) \nIBAN: PK73 \nALFH 0093 0010 0277 7251"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    app:fontFamily="@font/urdu_font_family"
+                    tools:layout_editor_absoluteX="187dp"
+                    tools:layout_editor_absoluteY="172dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

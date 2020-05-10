@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:gravity="right"
+                android:padding="3dp"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:fontFamily="@font/urdu_font_family" />
+
+            <TextView
+                android:id="@+id/textView4tar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="20sp"
+                android:text="حضرت عائشہ‬ ؓ ف‬رماتی ہیں کہ فاطمہ بنت ابی حبیش نے رسول اللہ ﷺ سے کہا کہ میں کبھی خون سے پاک نہیں ہوتی تو کیا میں نماز چھوڑ دوں؟ تو اللہ کے رسول ﷺ نے فرمایا: ’’یہ تو ایک رگ کا خون ہے، حیض نہیں۔ جب حیض آنے لگے تو نماز چھوڑ دو اور جب حیض کے دن گزر جائیں تو خون دھو کر نماز پڑھو"
+                android:textColor="#17202f"
+                android:textSize="14sp"
+                app:fontFamily="@font/urdu_font_family" />
+
+            <View
+                android:id="@+id/view14"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/md_black_1000"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <TextView
+                android:id="@+id/textView4tar3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:gravity="right"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="20sp"
+                android:textColor="#17202f"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/urdu_font_family" />
+
+            <TextView
+                android:id="@+id/textView4tar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="20sp"
+                android:textColor="#17202f"
+                android:textSize="13.3sp"
+                app:fontFamily="@font/urdu_font_family" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
